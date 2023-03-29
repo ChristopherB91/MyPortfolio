@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+.container {
+    max-width: 960px;
+}
+
+.headshot{
+    display: inline;
+}
+
+img{
+    outline: 20px solid black;
+    max-width: 100%;
+}
+/*
+* Custom translucent site header
+*/
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #727272;
+    transition: color .15s ease-in-out;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.flex-equal>* {
+    flex: 1;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Tribute{
+    background-image: url(./Portfolio/TributePage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.PR{
+    background-image: url(./Portfolio/PRWebsite.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.LP{
+    background-image: url(./Portfolio/LandingPage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.poke{
+    background-image: url();
+}
+
+.BW{
+    background-image: url(./Portfolio/BrochureWebsite.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Cert{
+    background-image: url(./Portfolio/IMG_4249.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        flex: 1;
+    }
+}
