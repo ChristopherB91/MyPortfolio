@@ -39,7 +39,7 @@
       <div
         class="container d-flex flex-column flex-md-row justify-content-between"
       >
-        <a class="py-2" href="#" aria-label="Product">
+        <a class="py-2 d-none d-md-inline-block" href="#" aria-label="Product">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -60,13 +60,36 @@
             />
           </svg>
         </a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+        <a class="py-2 d-none d-md-inline-block" href="#webs">Examples</a>
+        <a class="py-2 d-none d-md-inline-block" href="#footer">Footer</a>
+      </div>
+      <div class="dropdown">
+        <a id="dropdownBttn" class="py-2" aria-label="Product">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="d-block mx-auto"
+            role="img"
+            viewBox="0 0 24 24"
+          >
+            <title>Product</title>
+            <circle cx="12" cy="12" r="10" />
+            <path
+              d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"
+            />
+          </svg>
+        </a>
+        <div class="dropLink">
+          <a class="py-2" href="#">Top</a>
+          <a class="py-2" href="#webs">Examples</a>
+          <a class="py-2" href="#footer">Footer</a>
+        </div>
       </div>
     </nav>
 
@@ -86,7 +109,7 @@
         class="product-device product-device-2 shadow-sm d-none d-md-block"
       ></div>
     </div>
-
+    <div id="webs"></div>
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
       <div
         class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
@@ -95,10 +118,12 @@
           <h2 class="display-5">Chadwick Boseman Tribute</h2>
           <p class="lead">First project I ever made.</p>
         </div>
-        <div
-          class="Tribute"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
-        ></div>
+        <div class="Tribute" style="border-radius: 21px 21px 0 0">
+          <img
+            src="/Portfolio/TributePage.png"
+            alt="Chadwick Boseman Tribute"
+          />
+        </div>
       </div>
       <div
         class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
@@ -112,8 +137,10 @@
         </div>
         <div
           class="PR"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
-        ></div>
+          style="max-width: 100%; height: 300px; border-radius: 21px 21px 0 0"
+        >
+          <img src="/Portfolio/PRWebsite.png" alt="PRWebsite" />
+        </div>
       </div>
     </div>
 
@@ -125,10 +152,9 @@
           <h2 class="display-5">Landing Page</h2>
           <p class="lead">A lead capture page</p>
         </div>
-        <div
-          class="LP"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
-        ></div>
+        <div class="LP" style="border-radius: 21px 21px 0 0">
+          <img src="/Portfolio/LandingPage.png" alt="LandingPage" />
+        </div>
       </div>
       <div
         class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
@@ -140,10 +166,9 @@
             of pokemon
           </p>
         </div>
-        <div
-          class="Poke"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
-        ></div>
+        <div class="Poke" style="border-radius: 21px 21px 0 0">
+          <image src="/Portfolio/PokeDex.gif" />
+        </div>
       </div>
     </div>
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
@@ -156,10 +181,9 @@
             An informational page designed to look like a Brochure
           </p>
         </div>
-        <div
-          class="BW"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
-        ></div>
+        <div class="BW" style="border-radius: 21px 21px 0 0">
+          <img src="/Portfolio/BrochureWebsite.png" alt="Brochure" />
+        </div>
       </div>
       <div
         class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
@@ -168,12 +192,12 @@
           <h2 class="display-5">Perscholas Certification</h2>
           <p class="lead">Certification from the place I learned.</p>
         </div>
-        <div
-          class="Cert"
-          style="width: 48%; height: 300px; border-radius: 21px 21px;"
-        ></div>
+        <div class="Cert" style="border-radius: 21px 21px">
+          <img class="Cert" src="/Portfolio/IMG_4249.JPG" alt="" />
+        </div>
       </div>
     </div>
+    <div id="footer"></div>
     <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md">
@@ -199,41 +223,23 @@
           <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
         </div>
         <div class="col-6 col-md">
-          <h5>Features</h5>
+          <h5>Skills</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#">Cool stuff</a></li>
-            <li><a class="link-secondary" href="#">Random feature</a></li>
-            <li><a class="link-secondary" href="#">Team feature</a></li>
-            <li><a class="link-secondary" href="#">Stuff for developers</a></li>
-            <li><a class="link-secondary" href="#">Another one</a></li>
-            <li><a class="link-secondary" href="#">Last time</a></li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Typescript</li>
+            <li>Material UI</li>
           </ul>
         </div>
         <div class="col-6 col-md">
-          <h5>Resources</h5>
+          <h5>Platforms used</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#">Resource name</a></li>
-            <li><a class="link-secondary" href="#">Resource</a></li>
-            <li><a class="link-secondary" href="#">Another resource</a></li>
-            <li><a class="link-secondary" href="#">Final resource</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#">Business</a></li>
-            <li><a class="link-secondary" href="#">Education</a></li>
-            <li><a class="link-secondary" href="#">Government</a></li>
-            <li><a class="link-secondary" href="#">Gaming</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#">Team</a></li>
-            <li><a class="link-secondary" href="#">Locations</a></li>
-            <li><a class="link-secondary" href="#">Privacy</a></li>
-            <li><a class="link-secondary" href="#">Terms</a></li>
+            <li><a class="link-secondary" href="#">Upwork</a></li>
+            <li><a class="link-secondary" href="#">Fiverr</a></li>
+            <li><a class="link-secondary" href="#">Twitter</a></li>
+            <li><a class="link-secondary" href="#">Github</a></li>
           </ul>
         </div>
       </div>
