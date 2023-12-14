@@ -66,12 +66,12 @@ img {
   display: none;
 }
 
-.dropLink a{
+.dropLink a {
   display: block;
 }
 
-.dropdown:hover .dropLink { 
-  display: block; 
+.dropdown:hover .dropLink {
+  display: block;
 }
 
 @media (min-width: 768px) {
